@@ -1,0 +1,29 @@
+:root {
+    --background-color: gray;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background: var(--background-color);
+}
+
+button {
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid;
+}
+
+label {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
