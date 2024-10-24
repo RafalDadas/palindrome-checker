@@ -1,5 +1,6 @@
 :root {
     --background-color: gray;
+    --container-background: white;
 }
 
 *,
@@ -12,6 +13,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 18px;
     background: var(--background-color);
+    text-align: center;
 }
 
 button {
@@ -22,6 +24,15 @@ button {
 
 label {
     font-weight: bold;
+}
+
+.container {
+    background: var(--container-background);
+    width: 90%;
+    max-width: 720px;
+    border: black 1px solid;
+    margin: 20px auto;
+    padding: 20px;
 }
 
 .hide {
